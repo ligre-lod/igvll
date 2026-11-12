@@ -1,0 +1,46 @@
+{
+  "upload_type": "dataset",
+  "title": "IGVLL–LiGre: the Greek words of the Index Graecorum Vocabulorum in Linguam Latinam linked to the LiGre Lemma Bank",
+  "description": "<p>A linkset from the Greek source words (etymons) of the <a href=\"https://github.com/CIRCSE/index-graecorum-vocabulorum\">Index Graecorum Vocabulorum in Linguam Latinam</a> (IGVLL), an index of Latin loanwords from Greek, to their lemmas in the <a href=\"https://github.com/ligre-lod/ligre_lemmabank\">LiGre Lemma Bank</a> for Ancient Greek. Every Greek word whose spelling matches exactly one LiGre lemma, after Unicode normalisation and the correction of OCR errors and grave accents in IGVLL, is linked to that lemma with <code>ontolex:canonicalForm</code>, the property IGVLL uses for the citation form of an etymon.</p><p>This archive is a snapshot of the GitHub repository at the release tag. The linkset is <code>ttl/IGVLL_LiGre.ttl</code>, with its VoID/DCAT description, which is also in <code>ttl/IGVLL_LiGre_description.ttl</code>. The archive also contains the pipeline that makes it and review tables in <code>review/</code>: the Greek words that match no LiGre lemma or several, those matched through the headword of their LSJ entry, and the corrections made to IGVLL's Greek.</p><p>Linkset IRI: <a href=\"https://w3id.org/ligre/data/linksets/IGVLL/id/linkset\">https://w3id.org/ligre/data/linksets/IGVLL/id/linkset</a>. Knowledge base description: <a href=\"https://ligre-lod.github.io/.well-known/void\">https://ligre-lod.github.io/.well-known/void</a>.</p><p>Data: CC BY-NC-SA 4.0, derived from IGVLL (CC BY-NC-SA 4.0). Code: MIT.</p>",
+  "creators": [
+    {
+      "name": "Lemay, Paulien",
+      "orcid": "0009-0004-2388-9233",
+      "affiliation": "Ghent University"
+    }
+  ],
+  "license": "cc-by-nc-sa-4.0",
+  "access_right": "open",
+  "keywords": [
+    "Ancient Greek",
+    "Latin",
+    "loanwords",
+    "etymology",
+    "lemmatization",
+    "linked open data",
+    "LiGre",
+    "LiLa",
+    "RDF"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/CIRCSE/index-graecorum-vocabulorum",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://w3id.org/ligre/data/linksets/IGVLL/id/linkset",
+      "relation": "isAlternateIdentifier",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://ligre-lod.github.io/.well-known/void",
+      "relation": "hasMetadata"
+    },
+    {
+      "identifier": "10.5281/zenodo.24085996",
+      "relation": "references",
+      "resource_type": "dataset"
+    }
+  ]
+}
