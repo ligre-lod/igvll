@@ -11,11 +11,11 @@
     dcterms:description "Links from the Greek source words (etymons) of the Index Graecorum Vocabulorum in Linguam Latinam (IGVLL), an index of Latin loanwords from Greek, to their lemmas in the LiGre Lemma Bank for Ancient Greek: one link for every Greek word whose spelling matches exactly one LiGre lemma."@en ;
     dcterms:isPartOf <https://w3id.org/ligre/data/id/KnowledgeBase> ;
     dcterms:language <http://lexvo.org/id/iso639-3/grc> ;
-    dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-sa/4.0/> ;
     dcterms:publisher <https://ror.org/00cv9y106> ;
     dcterms:source <https://github.com/CIRCSE/index-graecorum-vocabulorum> ;
     dcterms:title "IGVLL–LiGre linkset"@en ;
-    void:dataDump <https://raw.githubusercontent.com/ligre-lod/igvll-to-ligre/v0.1.0/ttl/IGVLL_LiGre.ttl> ;
+    void:dataDump <https://raw.githubusercontent.com/ligre-lod/igvll/v0.1.0/ttl/IGVLL_LiGre.ttl> ;
     void:distinctObjects 1349 ;
     void:distinctSubjects 1381 ;
     void:exampleResource <http://lila-erc.eu/data/lexicalResources/IGVLL/id/etymon/1> ;
@@ -26,7 +26,7 @@
     void:triples 1381 ;
     void:vocabulary ontolex: ;
     dcat:distribution <https://w3id.org/ligre/data/linksets/IGVLL/id/distribution> ;
-    dcat:landingPage <https://github.com/ligre-lod/igvll-to-ligre> ;
+    dcat:landingPage <https://github.com/ligre-lod/igvll> ;
     dcat:version "0.1.0" ;
     foaf:homepage <https://ligre-lod.github.io/> .
 
@@ -37,10 +37,10 @@
     foaf:name "Ghent University" .
 
 <https://w3id.org/ligre/data/linksets/IGVLL/id/distribution> a dcat:Distribution ;
-    dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-sa/4.0/> ;
     dcterms:title "Linkset in Turtle"@en ;
-    dcat:downloadURL <https://raw.githubusercontent.com/ligre-lod/igvll-to-ligre/v0.1.0/ttl/IGVLL_LiGre.ttl> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/ligre-lod/igvll/v0.1.0/ttl/IGVLL_LiGre.ttl> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
 
-<https://creativecommons.org/licenses/by-sa/4.0/> a dcterms:LicenseDocument ;
-    dcterms:title "Creative Commons Attribution Share Alike 4.0 International"@en .
+<https://creativecommons.org/licenses/by-nc-sa/4.0/> a dcterms:LicenseDocument ;
+    dcterms:title "Creative Commons Attribution Non Commercial Share Alike 4.0 International"@en .

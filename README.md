@@ -75,6 +75,15 @@ download URL in the description points to the linkset of that release, and its c
 `CHANGELOG.md`. The LiGre endpoint serves a release once its two files are copied into `ttl/linksets/` of the
 [lemma bank](https://github.com/ligre-lod/ligre_lemmabank) (see *Linksets in the endpoint* in its README).
 
+Releases are archived on Zenodo through the GitHub integration, with the metadata in `.zenodo.json`; the citation
+metadata is in `CITATION.cff`.
+
+## Licence
+
+The data (the linkset in `ttl/` and the review tables in `review/`) is derived from IGVLL and licensed, like IGVLL,
+under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) (see [LICENSE-DATA.md](LICENSE-DATA.md)).
+The code is licensed under the MIT License (see [LICENSE](LICENSE)).
+
 ## Review files
 
 `review/unmatched.tsv` lists first the words that match several LiGre lemmas and then those that match none:

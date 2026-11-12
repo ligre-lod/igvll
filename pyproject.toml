@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "igvll-to-ligre"
-version = "0.0.0"
+version = "0.1.0"
 description = "Links the Greek words of the Index Graecorum Vocabulorum in Linguam Latinam (IGVLL) to the LiGre lemma bank"
 requires-python = ">=3.10"
 dependencies = ["rdflib>=7.0"]

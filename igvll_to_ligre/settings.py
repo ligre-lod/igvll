@@ -31,7 +31,7 @@ LINKSET_DESCRIPTION = (
     "an index of Latin loanwords from Greek, to their lemmas in the LiGre Lemma Bank for Ancient Greek: one link "
     "for every Greek word whose spelling matches exactly one LiGre lemma."
 )
-LINKSET_REPOSITORY_URL = "https://github.com/ligre-lod/igvll-to-ligre"
+LINKSET_REPOSITORY_URL = "https://github.com/ligre-lod/igvll"
 LINKSET_DOWNLOAD_URL = (
     LINKSET_REPOSITORY_URL.replace("github.com", "raw.githubusercontent.com")
     + f"/v{LINKSET_VERSION}/ttl/{LINKSET_FILENAME}"
@@ -40,8 +40,8 @@ LINKSET_CREATORS = (
     {"name": "Paulien Lemay", "iri": "https://orcid.org/0009-0004-2388-9233"},
 )
 LINKSET_PUBLISHER = {"name": "Ghent University", "iri": "https://ror.org/00cv9y106"}
-LINKSET_LICENSE_URL = "https://creativecommons.org/licenses/by-sa/4.0/"
-LINKSET_LICENSE_TITLE = "Creative Commons Attribution Share Alike 4.0 International"
+LINKSET_LICENSE_URL = "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+LINKSET_LICENSE_TITLE = "Creative Commons Attribution Non Commercial Share Alike 4.0 International"
 KNOWLEDGE_BASE_IRI = "https://w3id.org/ligre/data/id/KnowledgeBase"
 KNOWLEDGE_BASE_HOMEPAGE = "https://ligre-lod.github.io/"
 LIGRE_LEMMA_BANK_IRI = "https://w3id.org/ligre/data/id/lemma/LemmaBank"
