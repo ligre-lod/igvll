@@ -16,20 +16,23 @@ LSJ_INDEX_FILENAME = "lsj_index.txt"
 LSJ_URN_PREFIX = "urn:cite2:hmt:lsj.chicago_md:"
 LSJ_VIEWER_URL = "https://folio2.furman.edu/lsj/index.html?urn={}"
 
-UNMATCHED_FILENAME = "unmatched.tsv"
-CORRECTIONS_FILENAME = "corrections.tsv"
-LSJ_MATCHES_FILENAME = "lsj_matches.tsv"
+LSJ_DECISIONS_FILENAME = "decisions_lsj.tsv"
+AMBIGUOUS_DECISIONS_FILENAME = "decisions_ambiguous.tsv"
+UNMATCHED_LIST_FILENAME = "list_unmatched.tsv"
+CORRECTED_LIST_FILENAME = "list_corrected_forms.tsv"
+LIGRE_CORRECTIONS_PATH = REPOSITORY_DIRECTORY / "ligre_corrections" / "igvll-review.tsv"
 LINKSET_FILENAME = "IGVLL_LiGre.ttl"
 DESCRIPTION_FILENAME = "IGVLL_LiGre_description.ttl"
 
-LINKSET_VERSION = "0.1.0"
+LINKSET_VERSION = "0.2.0"
 LINKSET_IRI = "https://w3id.org/ligre/data/linksets/IGVLL/id/linkset"
 LINKSET_DISTRIBUTION_IRI = "https://w3id.org/ligre/data/linksets/IGVLL/id/distribution"
 LINKSET_TITLE = "IGVLL–LiGre linkset"
 LINKSET_DESCRIPTION = (
     "Links from the Greek source words (etymons) of the Index Graecorum Vocabulorum in Linguam Latinam (IGVLL), "
     "an index of Latin loanwords from Greek, to their lemmas in the LiGre Lemma Bank for Ancient Greek: one link "
-    "for every Greek word whose spelling matches exactly one LiGre lemma."
+    "for every Greek word whose spelling matches exactly one LiGre lemma, and for every Greek word linked to a LiGre "
+    "lemma after manual review."
 )
 LINKSET_REPOSITORY_URL = "https://github.com/ligre-lod/igvll"
 LINKSET_DOWNLOAD_URL = (
