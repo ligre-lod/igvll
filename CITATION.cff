@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use IGVLL–LiGre, please cite it using the metadata below, and also cite IGVLL and the LiGre Lemma Bank it links (see references)."
 type: dataset
 title: "IGVLL–LiGre: the Greek words of the Index Graecorum Vocabulorum in Linguam Latinam linked to the LiGre Lemma Bank"
-version: 0.1.0
-date-released: 2026-11-12
+version: 0.2.0
+date-released: 2026-11-17
 license: CC-BY-NC-SA-4.0
 url: "https://w3id.org/ligre/data/linksets/IGVLL/id/linkset"
 repository-code: "https://github.com/ligre-lod/igvll"
@@ -16,8 +16,9 @@ abstract: >-
   A linkset from the Greek source words (etymons) of the Index Graecorum
   Vocabulorum in Linguam Latinam (IGVLL), an index of Latin loanwords from
   Greek, to their lemmas in the LiGre Lemma Bank for Ancient Greek, for every
-  Greek word whose spelling matches exactly one LiGre lemma, with review
-  tables of the words that are not linked yet.
+  Greek word whose spelling matches exactly one LiGre lemma and for every
+  Greek word linked after manual review, with the decision files of the
+  review and lists of the words that are not linked.
 keywords:
   - Ancient Greek
   - Latin
@@ -41,7 +42,7 @@ references:
         given-names: Marco
   - type: data
     title: "LiGre Lemma Bank: a Lemma Bank for Ancient Greek as Linked Open Data"
-    version: 0.5.0
+    version: 0.6.2
     doi: 10.5281/zenodo.24085996
     license: CC-BY-SA-4.0
     repository: "https://github.com/ligre-lod/ligre_lemmabank"
