@@ -80,8 +80,9 @@ def updated_rows(existing_rows, candidate_rows):
 def check_analysis(where, pos, gender):
     if pos not in UNIVERSAL_TAGS:
         raise DecisionError(f"{where}: new_pos is one of {sorted(UNIVERSAL_TAGS)}, not {pos!r}")
-    if (pos in GENDERED_TAGS) != bool(gender) or (gender and gender not in GENDERS):
-        raise DecisionError(f"{where}: NOUN and PROPN need new_gender m, f or n; other parts of speech none")
+    if (pos == "NOUN" and not gender) or (pos not in GENDERED_TAGS and gender) or (gender and gender not in GENDERS):
+        raise DecisionError(f"{where}: NOUN needs new_gender m, f or n, PROPN m, f, n or none; "
+                            f"other parts of speech none")
 
 
 def reviewed_word(where, row, lemma_bank):

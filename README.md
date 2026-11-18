@@ -114,7 +114,7 @@ is kept even when the pipeline does not list the word.
 | `ligre_lemma` | the id of the LiGre lemma the decision is about; prefilled in `decisions_lsj.tsv` |
 | `decision` | empty (not decided yet) or one of the values below |
 | `new_lemma` | for `wr`, `lv`, `correct-ligre` and `new`: the spelling LiGre gets; empty means IGVLL's (corrected) word |
-| `new_pos`, `new_gender` | for `new`: the part of speech (Universal Dependencies, `PROPN` for a name) and, for `NOUN` and `PROPN`, the gender (`m`, `f`, `n`); for `lv` and `correct-ligre` only to deviate from the LiGre lemma's |
+| `new_pos`, `new_gender` | for `new`: the part of speech (Universal Dependencies, `PROPN` for a name) and, for `NOUN`, the gender (`m`, `f`, `n`), which a `PROPN` may leave empty when it has none (an indeclinable name); for `lv` and `correct-ligre` only to deviate from the LiGre lemma's |
 | `note` | free text |
 | `corrected` | the corrected Greek word, which is the one matched; empty if IGVLL's needs no correction |
 | `latin` | the Latin loanword; for a part of a compound or a cognate, the loanword of its compound or cognate |

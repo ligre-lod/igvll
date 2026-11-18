@@ -5,6 +5,10 @@ All notable changes to the IGVLL–LiGre linkset are listed here. Releases follo
 
 ## [Unreleased]
 
+### Changed
+- A `PROPN` decided as `new` may be without a gender, for indeclinable names,
+  which LiGre now accepts; a `NOUN` still needs one.
+
 ## [0.2.0] - 2026-11-17
 
 ### Added
